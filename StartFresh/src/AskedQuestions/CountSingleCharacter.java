@@ -19,7 +19,8 @@ public class CountSingleCharacter {
 		    
 		    
 		    s = s.toLowerCase();
-		    s = s.trim();
+		    
+		    
 		    int count =0;
 		    
 		    for(char ch: s.toCharArray())
